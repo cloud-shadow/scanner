@@ -1,8 +1,8 @@
 {
-    "name": "modernphp/scanner",
+    "name": "hanbit-modernphp/scanner",
     "description": "Scan an array of URLs and report inaccessible URLs",
     "keywords": ["url", "scanner", "csv"],
-    "homepage": "http://shop.oreilly.com/product/0636920033868.do",
+    "homepage": "http://www.hanbit.co.kr/",
     "license": "MIT",
     "authors": [
         {

@@ -5,7 +5,7 @@ require(dirname(__DIR__) . '/vendor/autoload.php');
 $urls = file('urls.csv', FILE_IGNORE_NEW_LINES|FILE_SKIP_EMPTY_LINES);
 
 // Find invalid urls
-$scanner = new \Oreilly\ModernPHP\Url\Scanner($urls);
+$scanner = new \Hanbit\ModernPHP\Url\Scanner($urls);
 $invalidUrls = $scanner->getInvalidUrls();
 
 // Do something with invalid urls

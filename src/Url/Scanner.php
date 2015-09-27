@@ -1,5 +1,5 @@
 <?php
-namespace Oreilly\ModernPHP\Url;
+namespace Hanbit\ModernPHP\Url;
 
 class Scanner
 {

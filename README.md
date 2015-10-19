@@ -1,16 +1,17 @@
-# URL Scanner
+# URL 스캐너
 
-Scan an array of URLs and report inaccessible URLs
+URL 목록 배열을 스캔하고 접근할 수 없는 URL을 보고합니다.  
+(이 컴포넌트 소스는 [modern-php/scanner](https://github.com/modern-php/scanner)의 한국어판 소스입니다.)  
 
-## Install
+## 설치
 
-Via Composer
+컴포저 이용
 
 ``` bash
-$ composer require modernphp/scanner
+$ composer require hanbit-modernphp/scanner
 ```
 
-## Usage
+## 사용법
 
 ``` php
 $urls = [
@@ -18,23 +19,23 @@ $urls = [
     'http://php.net',
     'http://sdfssdwerw.org'
 ];
-$scanner = new \Oreilly\ModernPHP\Url\Scanner($urls);
+$scanner = new \Hanbit\ModernPHP\Url\Scanner($urls);
 print_r($scanner->getInvalidUrls());
 ```
 
-## Testing
+## 테스트
 
-Tests unavailable.
+지원되지 않습니다.
 
-## Contributing
+## 기여
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+[CONTRIBUTING](CONTRIBUTING.md) 참고
 
-## Credits
+## 제작자
 
 - [Josh Lockhart](https://github.com/codeguy)
 - [All Contributors](https://github.com/modernphp/scanner/contributors)
 
-## License
+## 라이선스
 
-The MIT License (MIT). Please see [License File](LICENSE) for more information.
+The MIT License (MIT). [License File](LICENSE) 참고

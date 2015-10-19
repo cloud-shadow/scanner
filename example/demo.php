@@ -1,12 +1,12 @@
 <?php
 require(dirname(__DIR__) . '/vendor/autoload.php');
 
-// CSV¿¡¼­ url ÃßÃâ
+// CSVì—ì„œ url ì¶”ì¶œ
 $urls = file('urls.csv', FILE_IGNORE_NEW_LINES|FILE_SKIP_EMPTY_LINES);
 
-// ¿Ã¹Ù¸£Áö ¾ÊÀº url °Ë»ç
+// ì˜¬ë°”ë¥´ì§€ ì•Šì€ url ê²€ì‚¬
 $scanner = new \Hanbit\ModernPHP\Url\Scanner($urls);
 $invalidUrls = $scanner->getInvalidUrls();
 
-// ¿Ã¹Ù¸£Áö ¾ÊÀº url ¸ñ·Ï »ç¿ë
+// ì˜¬ë°”ë¥´ì§€ ì•Šì€ url ëª©ë¡ ì‚¬ìš©
 print_r($invalidUrls);

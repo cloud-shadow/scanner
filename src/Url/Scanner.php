@@ -4,7 +4,7 @@ namespace Hanbit\ModernPHP\Url;
 class Scanner
 {
     /**
-     * @var array URL ¹è¿­
+     * @var array URL ë°°ì—´
      */
     protected $urls;
 
@@ -14,8 +14,8 @@ class Scanner
     protected $httpClient;
 
     /**
-     * »ı¼ºÀÚ
-     * @param array $urls ½ºÄµÇÒ URL ¹è¿­
+     * ìƒì„±ì
+     * @param array $urls ìŠ¤ìº”í•  URL ë°°ì—´
      */
     public function __construct(array $urls)
     {
@@ -24,7 +24,7 @@ class Scanner
     }
 
     /**
-     * Á¢±ÙÇÒ ¼ö ¾ø´Â URL °¡Á®¿À±â
+     * ì ‘ê·¼í•  ìˆ˜ ì—†ëŠ” URL ê°€ì ¸ì˜¤ê¸°
      * @return array
      */
     public function getInvalidUrls()
@@ -49,9 +49,9 @@ class Scanner
     }
 
     /**
-     * URL Á¢¼Ó °á°ú·Î ¹İÈ¯µÈ HTTP »óÅÂ ÄÚµå ¾ò±â
-     * @param string $url ¿ø°İ URL
-     * @return int The HTTP »óÅÂ ÄÚµå
+     * URL ì ‘ì† ê²°ê³¼ë¡œ ë°˜í™˜ëœ HTTP ìƒíƒœ ì½”ë“œ ì–»ê¸°
+     * @param string $url ì›ê²© URL
+     * @return int The HTTP ìƒíƒœ ì½”ë“œ
      */
     protected function getStatusCodeForUrl($url)
     {

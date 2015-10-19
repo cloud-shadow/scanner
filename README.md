@@ -1,17 +1,17 @@
-# URL ½ºÄ³³Ê
+# URL ìŠ¤ìºë„ˆ
 
-URL ¸ñ·Ï ¹è¿­À» ½ºÄµÇÏ°í Á¢±ÙÇÒ ¼ö ¾ø´Â URLÀ» º¸°íÇÕ´Ï´Ù.  
-(ÀÌ ÄÄÆ÷³ÍÆ® ¼Ò½º´Â [modern-php/scanner](https://github.com/modern-php/scanner)ÀÇ ÇÑ±¹¾îÆÇ ¼Ò½ºÀÔ´Ï´Ù.)  
+URL ëª©ë¡ ë°°ì—´ì„ ìŠ¤ìº”í•˜ê³  ì ‘ê·¼í•  ìˆ˜ ì—†ëŠ” URLì„ ë³´ê³ í•©ë‹ˆë‹¤.  
+(ì´ ì»´í¬ë„ŒíŠ¸ ì†ŒìŠ¤ëŠ” [modern-php/scanner](https://github.com/modern-php/scanner)ì˜ í•œêµ­ì–´íŒ ì†ŒìŠ¤ì…ë‹ˆë‹¤.)  
 
-## ¼³Ä¡
+## ì„¤ì¹˜
 
-ÄÄÆ÷Àú ÀÌ¿ë
+ì»´í¬ì € ì´ìš©
 
 ``` bash
 $ composer require hanbit-modernphp/scanner
 ```
 
-## »ç¿ë¹ı
+## ì‚¬ìš©ë²•
 
 ``` php
 $urls = [
@@ -23,19 +23,19 @@ $scanner = new \Hanbit\ModernPHP\Url\Scanner($urls);
 print_r($scanner->getInvalidUrls());
 ```
 
-## Å×½ºÆ®
+## í…ŒìŠ¤íŠ¸
 
-Áö¿øµÇÁö ¾Ê½À´Ï´Ù.
+ì§€ì›ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
 
-## ±â¿©
+## ê¸°ì—¬
 
-[CONTRIBUTING](CONTRIBUTING.md) Âü°í
+[CONTRIBUTING](CONTRIBUTING.md) ì°¸ê³ 
 
-## Á¦ÀÛÀÚ
+## ì œì‘ì
 
 - [Josh Lockhart](https://github.com/codeguy)
 - [All Contributors](https://github.com/modernphp/scanner/contributors)
 
-## ¶óÀÌ¼±½º
+## ë¼ì´ì„ ìŠ¤
 
-The MIT License (MIT). [License File](LICENSE) Âü°í
+The MIT License (MIT). [License File](LICENSE) ì°¸ê³ 

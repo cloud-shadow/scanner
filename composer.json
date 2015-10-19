@@ -1,6 +1,6 @@
 {
     "name": "hanbit-modernphp/scanner",
-    "description": "Scan an array of URLs and report inaccessible URLs",
+    "description": "URL 목록 배열을 스캔하고 접근할 수 없는 URL을 보고합니다.",
     "keywords": ["url", "scanner", "csv"],
     "homepage": "http://www.hanbit.co.kr/",
     "license": "MIT",
@@ -22,7 +22,7 @@
         "phpunit/phpunit": "~4.3"
     },
     "suggest": {
-        "league/csv": "Lets you quickly parse URLs from CSV data into an array"
+        "league/csv": "CSV 데이터를 배열로 간단하게 변환할 수 있습니다."
     },
     "autoload": {
         "psr-4": {
